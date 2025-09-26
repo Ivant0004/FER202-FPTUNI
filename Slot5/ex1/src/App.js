@@ -1,13 +1,14 @@
-import logo from './logo.svg';
 import './App.css';
-import {Ex1} from './componets/ex1';
-import {Ex2} from './componets/ex2';
+import { Ex1 } from './components/ex1';
+import { Ex2 } from './components/ex2';
+import { Ex3 } from './components/ex3';
 
 function App() {
   return (
-    <div className="App">\
+    <div className="App">
       <Ex1 />
       <Ex2 />
+      <Ex3 />  
     </div>
   );
 }

@@ -22,7 +22,9 @@ export function Ex2() {
     const teens = people.filter(person => person.age >= 13 && person.age <= 19);
     //so nguoi la tuoi teen
     console.log("So nguoi la tuoi teen: " + teens.length);
-
+    //trung binh tuoi
+    const avgAge = people.reduce((total, person) => total + person.age, 0) / people.length;
+    console.log("Trung binh tuoi: " + avgAge);
 
     return(
         <div>
